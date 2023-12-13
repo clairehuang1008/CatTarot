@@ -1,0 +1,54 @@
+#tarot-image {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  z-index: 5;
+}
+
+#text {
+  position: absolute;
+  z-index: 2;
+}
+
+#text * {
+  text-align: center;
+}
+
+#tarot-name {
+  padding-top: 40%;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#tarot-meaning {
+  padding: 30px;
+  padding-top: 10px;
+  font-size: 16px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+#container:hover {
+  cursor: pointer;
+}
+
+#container:hover #tarot-image {
+  cursor: pointer;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+#container {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background-color: beige;
+}
+
+* {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.reversed {
+  transform: rotate(180deg);
+}
